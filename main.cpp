@@ -9,6 +9,7 @@ double function(double x) // Объявляем функцию
 }
 int main()
 {
+
 	int iterations = 0; // Счётчик итераций
 	double a = 1.5, b=2.0, x_m = (a+b)/2; // a и b - начальная и конечная точки, x_m - середина отрезка
 	double y, z, f1, f2, f3, eps = 0.0001;
